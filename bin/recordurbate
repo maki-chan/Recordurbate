@@ -108,7 +108,7 @@ def main():
         config = load_config()
 
         try:
-            shutil.copyfile(example_file, config["youtube-dl_config"])
+            shutil.copyfile(example_file, os.path.expanduser(config["youtube-dl_config"]))
         except Exception as e:
             print('Could not copy example config to destination.', e)
 
