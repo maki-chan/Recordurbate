@@ -1,6 +1,6 @@
 {
     "youtube-dl_cmd": "youtube-dl",
-    "youtube-dl_config": "configs/youtube-dl.config",
+    "youtube-dl_config": "~/.recordurbate/youtube-dl.config",
     "auto_reload_config": true,
     "default_export_location": "./list.txt",
     "streamers": [
