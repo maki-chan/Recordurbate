@@ -4,7 +4,7 @@ import subprocess
 import requests
 import time
 
-from config import load_config
+from recordurbate.config import load_config
 
 
 class Bot:
