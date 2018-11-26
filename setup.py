@@ -11,6 +11,6 @@ setup(name='Recordurbate',
       license='GPL-3.0',
       packages=['recordurbate'],
       package_dir={'recordurbate': 'src'},
-      package_data={'reordurbate': ['configs/youtube-dl.config', 'configs/config.json']},
+      package_data={'recordurbate': ['configs/youtube-dl.config', 'configs/config.json']},
       scripts=['bin/recordurbate'],
      )
