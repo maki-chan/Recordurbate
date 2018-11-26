@@ -104,6 +104,7 @@ def main():
     # Createconf command - Copies the default youtube-dl config file to the path given in the config - Usage: recordurbate createconf
     elif len(sys.argv) == 2 and sys.argv[1] == "createconf":
         example_file = os.path.join(os.path.dirname(__file__), "configs", "youtube-dl.config")
+        config = load_config()
 
         try:
             shutil.copyfile(example_file, config["youtube-dl_config"])
